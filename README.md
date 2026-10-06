@@ -88,10 +88,3 @@ Fall 2026
 
 ---
 
-If you want, I can also generate:
-
-- a **shorter README**,  
-- a **more technical README**,  
-- or a **research-style README** that frames the dataset in academic terms.
-
-Just tell me the tone you want.
