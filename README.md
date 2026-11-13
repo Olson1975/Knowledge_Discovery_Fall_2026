@@ -6,19 +6,6 @@ This repository contains the data preparation and preprocessing code used for in
 
 ---
 
-## **Assignment 2 Overview**
-
-Assignment 2 requires students to:
-
-1. Prepare a dataset for classification.  
-2. Run a **Naive Bayes classifier** in **Weka Explorer** using **10‑fold cross‑validation**.  
-3. Report:
-   - Estimated accuracy  
-   - Confusion matrix  
-   - A brief interpretation of results  
-4. Discuss whether the model performance is “good” and whether it would be satisfactory for the intended analytical purpose.
-
-This repository contains the preprocessing code used to generate the cleaned dataset required for the Naive Bayes model.
 
 ---
 
@@ -51,11 +38,29 @@ This file contains all data cleaning and transformation steps, including:
 ### **2. `cleaned_dataset.csv`**  
 The final dataset produced by the preprocessing script. This is the dataset used in Weka for Assignment 2.
 
-### **3. `Assignment2_Notes.md`** *(optional)*  
+### **3. `Assignment2_Notes.md`**  
 A summary of the Naive Bayes results, accuracy, confusion matrix, and interpretation.
 
+### **4. `Assignment 3'**
+
+## **Assignment 2 Overview**
+
+Assignment 2 requires students to:
+
+1. Prepare a dataset for classification.  
+2. Run a **Naive Bayes classifier** in **Weka Explorer** using **10‑fold cross‑validation**.  
+3. Report:
+   - Estimated accuracy  
+   - Confusion matrix  
+   - A brief interpretation of results  
+4. Discuss whether the model performance is “good” and whether it would be satisfactory for the intended analytical purpose.
+
+This repository contains the preprocessing code used to generate the cleaned dataset required for the Naive Bayes model.
+
 ---
-**Assignment 3**: Decision Trees, Pruning, and Model Comparison
+## **Assignment 3**: 
+
+Decision Trees, Pruning, and Model Comparison
 This assignment extends my analysis of internal migration in the linked 1850–1870 U.S. Census data, using demographic, disability, household, occupation, birthplace, and parental characteristics to predict whether an individual moved between linked census observations. The underlying project dataset contains more than 34 million records, making computational feasibility an important part of the modeling process.
 
 Following feedback from Assignment 2, I revised the dataset to retain additional potentially meaningful variables while correcting categorical features that had previously been represented as numeric values. Missing information was explicitly represented using categories such as Missing and NoParent, and categorical predictors were one-hot encoded for use with scikit-learn. Because fitting and repeatedly evaluating unrestricted decision trees on the entire dataset was computationally prohibitive, the Assignment 3 experiments use a reproducible random sample of 100,000 observations.
