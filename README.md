@@ -41,7 +41,7 @@ The final dataset produced by the preprocessing script. This is the dataset used
 ### **3. `Assignment2_Notes.md`**  
 A summary of the Naive Bayes results, accuracy, confusion matrix, and interpretation.
 
-### **4. `Assignment 3'**
+### **4. `Assignment 3`**
 
 ## **Assignment 2 Overview**
 
